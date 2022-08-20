@@ -1,0 +1,420 @@
+body{
+    margin:0;
+        padding: 0;
+            background: #F8FFF4;
+}
+
+.Name{
+    width: 100%;
+        height: 300px;
+        background: #78C0E0;
+            transform: skewY(-5deg);
+            
+}
+
+.Name .content{
+    width: 55%;
+        height: 55%;
+            position: absolute;
+                left: 25%;
+    
+   
+}
+
+.Name .content .Titulo{
+    color: #020202;
+        font-family: 'Francois One', sans-serif;
+            font-size: 40px;
+                transform: skewY(-2.5deg);
+                    margin-bottom: 0;
+}
+
+.Name .content .welcome{
+    color: #020202;
+        font-family: 'Francois One', sans-serif;
+            font-size: 70px;
+                transform: skewY(-2.5deg);
+                    margin-top: 0;
+                        margin-bottom: 0;
+}
+
+.Name .img{
+    position: absolute;
+    top: 18%;
+    right: 5%;
+    width: 178px;
+    height: 222px;
+    border-radius: 100%;
+    overflow: hidden;
+    transform: skewY(5deg)
+   
+} 
+.Name .img img{
+    width: 180px;
+    height: 222px;
+
+}
+
+
+.informationPerson{
+    width: 90%;
+        height: auto;
+            background: #63B4D1;
+                margin: 6.5% auto;
+                    padding: 20px;
+                    border-radius: 20px;
+
+        }
+
+.informationPerson .myinfo{
+    color: #020202;
+        font-family: 'Francois One', sans-serif;
+            font-size: 20px;
+                text-align: center;
+                    font-weight: bolder;
+                        border-bottom: 2px  dashed;
+}
+
+.informationPerson .date{
+    color: #080708;
+        font-family: 'Francois One', sans-serif;
+            text-align: justify;
+                font-size: large;
+                    font-weight: bold;
+
+}
+
+.informationPerson .date1{
+    color: #080708;
+        font-family: 'Francois One', sans-serif;
+            text-align: justify;
+                font-size: large;
+                    font-weight: bold;
+
+}
+
+.informationPerson .date2{
+    color: #080708;
+        font-family: 'Francois One', sans-serif;
+            text-align: justify;
+                font-size: large;
+                    font-weight: bold;
+
+}
+
+.informationPerson .date3{
+    color: #080708;
+        font-family: 'Francois One', sans-serif;
+            text-align: justify;
+                font-size: large;
+                    font-weight: bold;
+
+}
+
+.informationPerson .date4{
+    color: #080708;
+        font-family: 'Francois One', sans-serif;
+            text-align: justify;
+                font-size: large;
+                    font-weight: bold;
+
+}
+
+.informationPerson .date5{
+    color: #080708;
+        font-family: 'Francois One', sans-serif;
+            text-align: justify;
+                font-size: large;
+                    font-weight: bold;
+
+}
+
+.informationPerson .date6{
+    color: #080708;
+        font-family: 'Francois One', sans-serif;
+            text-align: justify;
+                font-size: large;
+                    font-weight: bold;
+
+}
+
+.profile{
+    width: 90%;
+        height: auto;
+            background: #FCFCFC;
+                margin: 6.5% auto;
+                    padding: 20px;
+                    border-radius: 20px;
+}
+
+.profile .myprofile{
+    color: #020202;
+        font-family: 'Francois One', sans-serif;
+            font-size: 20px;
+                text-align: center;
+                    font-weight: bolder;
+                        border-bottom: 2px  dashed;
+}
+
+.profile .perfil{
+    color: #080708;
+    font-family: 'Francois One', sans-serif;
+        text-align: justify;
+            font-size: large;
+                font-weight: bold;
+}
+
+.infoeducation{
+    width: 90%;
+    height: auto;
+        background: #63B4D1;
+            margin: 6.5% auto;
+                padding: 20px;
+                border-radius: 20px;
+}
+
+.infoeducation .myedu{
+    color: #020202;
+        font-family: 'Francois One', sans-serif;
+            font-size: 20px;
+                text-align: center;
+                    font-weight: bolder;
+                        border-bottom: 2px  dashed;
+}
+.infoeducation .education{
+    color: #080708;
+    font-family: 'Francois One', sans-serif;
+        text-align: justify;
+            font-size: large;
+                font-weight: bold;
+}
+
+.infoeducation .edu{
+    color: #080708;
+    font-family: 'Francois One', sans-serif;
+        text-align: justify;
+            font-size: large;
+                font-weight: bold;
+}
+
+.infoexpe{
+    width: 90%;
+    height: auto;
+        background: #63B4D1;
+            margin: 6.5% auto;
+                padding: 20px;
+                border-radius: 20px;
+}
+
+.infoexpe .myexpe{
+    color: #020202;
+        font-family: 'Francois One', sans-serif;
+            font-size: 20px;
+                text-align: center;
+                    font-weight: bolder;
+                        border-bottom: 2px  dashed;
+}
+
+.infoexpe .experiencia{
+    color: #080708;
+    font-family: 'Francois One', sans-serif;
+        text-align: justify;
+            font-size: large;
+                font-weight: bold;
+}
+
+.infoidio{
+    width: 90%;
+    height: auto;
+        background: #63B4D1;
+            margin: 6.5% auto;
+                padding: 20px;
+                border-radius: 20px;
+}
+
+.infoidio .myidio{
+    color: #020202;
+        font-family: 'Francois One', sans-serif;
+            font-size: 20px;
+                text-align: center;
+                    font-weight: bolder;
+                        border-bottom: 2px  dashed;
+}
+
+.infoidio .idiomas{
+    color: #080708;
+    font-family: 'Francois One', sans-serif;
+        text-align: justify;
+            font-size: large;
+                font-weight: bold;
+}
+
+.infoidio .idio{
+    color: #080708;
+    font-family: 'Francois One', sans-serif;
+        text-align: justify;
+            font-size: large;
+                font-weight: bold;
+}
+
+.infoidio .idiomas span{
+    display: inline-block;
+    width: auto;
+    height: auto;
+    padding-left: 1%;
+    padding-right: 1%;
+    background: #F8FFF4;
+    color: #080708;
+    font-family: 'Francois One', sans-serif;
+    border-radius: 5px;
+}
+
+.Habilidades{
+    width: 90%;
+    height: auto;
+        background: #63B4D1;
+            margin: 6.5% auto;
+                padding: 20px;
+                border-radius: 20px;
+}
+
+.Habilidades .ha{
+    color: #020202;
+        font-family: 'Francois One', sans-serif;
+            font-size: 20px;
+                text-align: center;
+                    font-weight: bolder;
+                        border-bottom: 2px  dashed;
+}
+.Habilidades .bi{
+    color: #080708;
+    font-family: 'Francois One', sans-serif;
+        text-align: justify;
+            font-size: large;
+                font-weight: bold;
+                
+}
+.Habilidades .li span{
+    color: #080708;
+    font-family: 'Francois One', sans-serif;
+        text-align: justify;
+            font-size: large;
+                font-weight: bold;
+                display: inline-block;
+                width: auto;
+                height: auto;
+                padding-left: 1%;
+                padding-right: 1%;
+                background: #F8FFF4;
+                color: #080708;
+                font-family: 'Francois One', sans-serif;
+                border-radius: 5px;
+}
+.Habilidades .da{
+    color: #080708;
+    font-family: 'Francois One', sans-serif;
+        text-align: justify;
+            font-size: large;
+                font-weight: bold;
+                
+}
+
+}
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.redes ul{
+    list-style: none;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    margin: 0 5px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 50%;
+    float: left;
+
+}
+.redes ul li{
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    margin: 0 5px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 5px solid #080708;
+    float: left;
+    transition: all 0.5s ease;
+
+}
+.redes ul li .fa{
+ color: #1E3888;
+ margin-top: 20px;
+ transition: all 0.5s ease;
+}
+.redes ul li:hover .facebook{
+    border: 5px;
+    box-shadow: 0 0 15px #1E3888;
+    transition: all 0.5s ease;
+
+}
+.redes ul li:hover .fa-facebook{
+color: #1E3888;
+text-shadow: 0 0 15px #1E3888;
+transition: all 0.5s ease;
+
+}
+.redes ul li:hover .instagram{
+    border: 5px solid #E0607E;
+    box-shadow: 0 0 15px #E0607E;
+    transition: all 0.5s ease;
+}
+.redes ul li:hover .fa-instagram{
+    color: #E0607E;
+    box-shadow: 0 0 15px #E0607E;
+    transition: all 0.5s ease;
+}
+.redes ul li:hover .twitter{
+    border: 5px solid #3A6EA5;
+    box-shadow: 0 0 15px #3A6EA5;
+    transition: all 0.5s ease;
+}
+.redes ul li:hover .fa-twitter{
+    color: #3A6EA5;
+    box-shadow: 0 0 15px #3A6EA5;
+    transition: all 0.5s ease;
+}
+.redes ul li:hover .youtube{
+    border: 5px solid #E3170A;
+    box-shadow: 0 0 15px #E3170A;
+    transition: all 0.5s ease;
+}
+.redes ul li:hover .fa-youtube{
+    color: #E3170A;
+    box-shadow: 0 0 15px #E3170A;
+    transition: all 0.5s ease;
+}
+ @media screen and (max-widht: 640px) {
+    .redes {
+        width: 350px;
+    }
+    .redes ul li{
+        margin-top: 10px;
+
+    }
+    .redes ul li.youtube{
+        margin-left: 60px;
+
+    }
+ }
+
+
+
